@@ -1,4 +1,6 @@
-package com.example.server;
+package com.example.server.controller;
+import com.example.server.model.Message;
+import com.example.server.repository.MessageRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
